@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  transition: all 500ms;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+  transition: all 500ms;
+}
+
+.container {
+  /* max-width: 900px; */
+  margin: 0 auto;
+  /* padding: 0 20px; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+}
+
+img {
+  width: 300px;
+}
+
+.lightbulb {
+  position: relative;
+}
+
+.lightbulb img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.buttons {
+  margin-top: 250px;
+}
+
+button {
+  font-size: 15px;
+  padding: 1em 2em;
+  border: none;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+#switch_on {
+  background-color: green;
+  color: #fff;
+}
+
+#switch_on:hover {
+  background-color: rgb(15, 117, 15);
+}
+
+#switch_on:active {
+  opacity: 0.9;
+}
+
+#switch_off {
+  background-color: red;
+  color: #fff;
+}
+
+#switch_off:hover {
+  background-color: rgb(197, 9, 9);
+}
+
+#switch_off:active {
+  opacity: 0.8;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+#switch_off: hover;
+
+.form {
+  display: flex;
+  flex-direction: column;
+}

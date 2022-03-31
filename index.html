@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lightbulb</title>
+    <script
+      src="https://kit.fontawesome.com/6b7d429c30.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 id="text">Wellcome</h1>
+        <div class="lightbulb">
+          <img src="images/lightbulb-br.png" alt="" id="dark_bulb" />
+          <img src="images/lightbulb-bw.png" alt="" id="bright_bulb" />
+        </div>
+
+        <div class="buttons">
+          <button id="switch_on" onclick="switch_on()">ON</button>
+          <button id="switch_off" onclick="switch_off()">OFF</button>
+          <button id="reset" onclick="resetPage()">RESET</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
